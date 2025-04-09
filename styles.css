@@ -1,7 +1,5 @@
 *{
     box-sizing: border-box;
-    /* padding: 0;
-    margin: 0; */
 }
 body{
     font-family: "Barlow Semi Condensed", sans-serif;
@@ -288,9 +286,7 @@ body{
 @media only screen and (min-width: 426px) {
 
 .container{
-    /* display: grid; */
-    border: 1px solid red;
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
     width: 46rem;
     height: 330rem;
     overflow: hidden;
