@@ -1,18 +1,8 @@
-// let menu=document.querySelector(".menu-icon");
-// let nav=document.querySelector(".menu-collapse");
 
+const humberger = document.querySelector(".open")
+const close = document.querySelector(".close")
 
-
-// menu.addEventListener("click", function () {
-//     menu.classList.toggle("icon-close");
-//     nav.classList.toggle('open');
-// });
-
-
-const humberger = document.querySelector(".menu-icon")
-const close = document.querySelector(".close-icon")
-
-const navs = document.querySelector(".menu-collapse")
+const navs = document.querySelector(".navbar")
 
 
 humberger.addEventListener("click", function () {

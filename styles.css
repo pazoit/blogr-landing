@@ -1,0 +1,461 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    font-family: "Overpass", sans-serif;
+    height: 190rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background-color: hsl(356, 100%, 66%);
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
+    background-size: 36rem 36rem;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: hsl(0, 0%, 100%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    height: 25rem;
+    border-bottom-left-radius: 62px;
+}
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.header-title{
+    font-size: 29px;
+    text-align: center;
+}
+.header-text{
+    text-align: center;
+}
+.open{
+    background-color: transparent;
+    border: hidden;
+}
+.close{
+    background-color: transparent;
+    border: hidden;
+    display: none;
+}
+.navs{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(208, 49%, 24%);
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    box-shadow: 0px -1px 11px -4px rgba(0, 0, 0, 0.75);
+    /* display: none; */
+}
+.register-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+
+}
+.separate{
+    gap: 8px;
+}
+.line{
+      background-color: hsl(240, 2%, 79%);
+}
+.nav-child{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+
+}
+.arrow{
+    height: 12px;
+    width: 12px;
+    
+}
+.login {
+        height: 2.5rem;
+        width: 8rem;
+        background-color: transparent;
+        border:hidden;
+        color: hsl(240, 10%, 16%);
+}
+.signup{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 18px;
+    background-image:  linear-gradient(to right,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: hsl(0, 0%, 100%);
+    border: hidden;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.start{
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 16px;
+    border: hidden;
+    color: hsl(356, 100%, 66%);
+}
+.more{
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 16px;
+    background-color: transparent;
+    border:1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.content-title{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.first-title{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.image{
+    width: 100%;
+}
+.image-pc{
+    width: 100%;
+}
+
+.content-text{
+    color: hsl(237, 23%, 32%);
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.second-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+}
+.phone-text{
+    color: hsl(237, 23%, 32%);
+}
+.phones{
+    width: 100%;
+}
+.purple{
+    background: hsl(237, 17%, 21%);
+    height: 25.5rem;
+    position: absolute;
+    margin-top: 12rem;
+    width: 100%;
+    border-top-right-radius: 85px;
+    border-bottom-left-radius: 85px;  
+    z-index: -1;
+    overflow: hidden;
+}
+.back-img{
+    width: 24rem;
+    position: absolute;
+    bottom: 40%;
+    right: 2%;
+    left: 2%;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:12px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+.footer{
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    text-align: center;
+    height: 36rem;
+    border-top-right-radius: 4.5rem;
+}
+.subfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.content-footer{
+    color: hsl(240, 2%, 79%);
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    
+}
+.footer-title{
+    font-size: 15px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.computer-picture{
+    width: 60%;
+    
+}
+@media only screen and (min-width: 426px)  {
+    .container{
+        height: 230rem;
+    }
+    .purple{
+        height: 30rem;
+        margin-top: 30rem;
+
+    }
+    .back-img{
+        width: 45rem;
+        height: 40rem;
+        bottom: 10%;
+    }
+    .navbar{
+        right: 3%;
+    }
+}
+@media only screen and (min-width: 769px)  {
+   .container {
+         height: 138rem;
+   }
+   .header{
+        height: 20rem;
+   }
+   .menu{
+    display: none;
+   }
+   .open{
+    display: none;
+   }
+   .navbar{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     position: relative;
+     background-size: 40rem 40rem;
+     left: 2%;
+     top:3%;
+     height: 5rem;
+     width: 53rem;
+     background-color: transparent;
+     border: hidden;
+     box-shadow: none;
+   }
+   .navs{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: hsl(0, 0%, 100%);
+        background-color: transparent;
+   }
+   .register-button{
+        display: flex;
+        flex-direction: row;
+   }
+   .line{
+        display: none;
+   }
+   .arrow-light{
+      height: 12px;
+      width: 12px;
+   }
+   .arrow{
+    display: none;
+   }
+ .login{
+    color: hsl(0, 0%, 100%);
+ }
+ .signup{
+    background-image: none;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(13, 100%, 72%);
+ }
+ .first-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 32rem;
+    width: 100%;
+ }
+ .container-picture{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 3rem;
+    height: 35rem;
+    width: 50%;
+ }
+ .first-title{
+    text-align: end;
+ }
+ .content-container{
+    justify-content: flex-start;
+
+ }
+ .content-text{
+    text-align: start;
+ }
+ .content-title{
+    text-align: start;
+ }
+ .second-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+ }
+ .phones{
+    width: 50%;
+    height: 28rem;
+ }
+ .purple{
+    margin-top: 4rem;
+    height: 20rem;
+ }
+ .second-content{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 50%;
+    
+ }
+ .phones-title{
+    text-align: start;
+    font-size: 33px;
+    padding-right: 12px;
+ }
+ .phones-text{
+    padding-right: 27px;
+ }
+ .third-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+ }
+ .text-container{
+    width: 50%;
+ }
+
+.computer-picture{
+    margin-right: 3rem;
+    height: 35rem;
+    width: 40rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10rem;
+    height: 20rem;
+    padding-top: 50px;
+}
+.container-footer{
+
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.subfooter{
+   justify-content: flex-start;
+}
+
+}
