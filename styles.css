@@ -24,8 +24,8 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 25px;
-    padding-bottom: 12px;
-    height: 25rem;
+    padding-bottom: 25px;
+    height: 32rem;
     border-bottom-left-radius: 62px;
 }
 .header-bar{
@@ -185,6 +185,7 @@
 
 .content-text{
     color: hsl(237, 23%, 32%);
+    line-height: 1.6;
 }
 .content-container{
     display: flex;
@@ -216,7 +217,7 @@
     width: 100%;
 }
 .purple{
-    background: hsl(237, 17%, 21%);
+    background: hsl(240, 10%, 16%);
     height: 25.5rem;
     position: absolute;
     margin-top: 12rem;
@@ -227,11 +228,10 @@
     overflow: hidden;
 }
 .back-img{
-    width: 24rem;
+    width: 130%;
     position: absolute;
     bottom: 40%;
-    right: 2%;
-    left: 2%;
+
 }
 .third-container{
     display: flex;
@@ -292,6 +292,7 @@
 @media only screen and (min-width: 426px)  {
     .container{
         height: 230rem;
+        justify-content: space-between;
     }
     .purple{
         height: 30rem;
@@ -309,7 +310,9 @@
 }
 @media only screen and (min-width: 769px)  {
    .container {
-         height: 138rem;
+         height: 145rem;
+         border: 1px solid red;
+         gap:30px;
    }
    .header{
         height: 20rem;
